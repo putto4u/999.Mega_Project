@@ -26,9 +26,7 @@
 | **SRV-07** | VM-07 | **192.168.10.17** | **Django App 01** | Nginx + Gunicorn 기반 Python 웹 서비스 메인 노드 |
 | **SRV-08** | VM-08 | **192.168.10.18** | **Django App 02** | 고가용성 보장을 위한 L4/L7 로드밸런싱 실습 노드 |
 | **SRV-09** | VM-09 | **192.168.10.19** | **K8s Master** | Kubernetes 클러스터 관리 및 오케스트레이션 제어부 |
-| **SRV-10** | VM-10 | **192.168.10.20**<br>
-
-<br>**192.168.30.20** | **K8s Worker** | Pod 실행 환경 및 Ceph CSI 기반 볼륨 연동 노드 |
+| **SRV-10** | VM-10 | **192.168.10.20**<br>**192.168.30.20** | **K8s Worker** | Pod 실행 환경 및 Ceph CSI 기반 볼륨 연동 노드 |
 | **SRV-11** | VM-11 | **192.168.10.21** | **DevOps Center** | Jenkins CI/CD 파이프라인 및 Python venv 환경 통합 |
 | **SRV-12** | VM-12 | **192.168.10.22** | **AI Serving** | Django/FastAPI 기반 인공지능 모델 추론 API 서버 |
 | **SRV-13** | VM-13 | **192.168.10.23** | **Task Worker** | Redis 메시지 브로커 및 Celery 비동기 작업 처리 |
