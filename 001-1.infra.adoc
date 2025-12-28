@@ -18,7 +18,7 @@
 
 == 2. 하이브리드 인프라 통합 상세 구성 목록 (Wide-Viewport)
 
-[cols="2,2,2,2,4", options="header"]
+[cols="6,3,2,2,4", options="header"]
 |===
 |호스트 |VM No. |서비스/관리 IP (VLAN 10/20) |스토리지 IP (VLAN 30) |용도 및 통합 명칭 (Django/Hybrid/Storage Stack)
 
